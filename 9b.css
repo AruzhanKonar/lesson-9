@@ -1,0 +1,51 @@
+header {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li {
+    margin-right: 20px;
+}
+
+nav li:first-child {
+    font-family: Betina Script;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li:nth-child(3) {
+    font-family: Betina Script;
+    color: brown;
+}
+nav li:last-child {
+    border: 3px solid brown;
+}
+
+nav input:focus {
+    background-color: brown;
+    color: aliceblue;
+}
+
+nav a:hover {
+    color: brown;
+}
+
+nav li:nth-child(3):hover {
+    color: black;
+}
+
+nav li:nth-child(even):hover {
+    color: brown;
+}
+
+@font-face {
+    font-family: Betina Script;
+    src: url(BetinaScriptC_0.ttf);
+}

@@ -1,0 +1,44 @@
+.cards1 {
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.cards2 {
+    display: flex;
+}
+.card {
+    flex: 1;
+    margin: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 400px;
+    position: relative;
+}
+.buket {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.name {
+    position: absolute;
+    top: 220px;
+}
+
+.price {
+    position: absolute;
+    top: 260px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.buket:hover {
+    width: 240px;
+    height: 240px;
+    box-shadow:5px 5px 5px rgb(144, 143, 143);
+}
